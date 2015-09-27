@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+#main {
+float: left;
+width: 100%;
+}
+#mainContainer {
+margin: 0 230px;
+height: 200px;
+background: green;
+}
+#left {
+float: left;
+margin-left: -100%;
+width: 230px
+}
+        
+#right {
+float: left;
+margin-left: -230px;
+width: 230px;
+}
+        
+#left .inner,
+#right .inner {
+background: orange;
+margin: 0 10px;
+height: 200px;
+}
+</style>
+</head>
+<body>
+<div id="main">
+<div id="mainContainer">main content</div>
+</div>
+<div id="left">
+<div id="leftContainer" class="inner">left content</div>
+</div>
+<div id="right">
+<div id="rightContainer" class="inner">right</div>
+</div>
+</body>
+</html>
